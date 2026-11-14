@@ -23,9 +23,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 
@@ -845,20 +845,20 @@ CSV: loto7_4720_k91.csv
 Validacija NLL: 17.583927 | reg: 0.01
 Test NLL: 17.629388
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [7, 12, 16, 17, 20, 25, 29]
+NEXT: [7, x, 16, y, 20, z, 29]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Nastavak optimizacije: trening reg=0.1; gradijent=0.00141371.
 Validacija NLL: 17.616487 | reg: 0.1
 Test NLL: 17.619598
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [13, 15, 17, 22, 23, 25, 27]
+NEXT: [13, x, 17, y, 23, z, 27]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Validacija NLL: 17.636470 | reg: 0.01
 Test NLL: 17.922452
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [5, 12, 14, 19, 34, 35, 36]
+NEXT: [5, x, 14, y, 34, z, 36]
 """
 
 
